@@ -1,0 +1,40 @@
+h1 {
+    color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.page {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+p{
+    font-size:18px;
+    line-height:1.6;
+    max-width:  700px;
+    
+}
+ol {
+    background: #f3f3f3;
+     padding:15px 30px;
+    border-radius:10px;
+}
+li{
+    margin:5px 0;
+    font-weight:bold;
+}
+.mern-image{
+    border:4px solid black;
+    box-shadow:3px 3px 10px gray;
+    border-radius:10px;
+}
+
+a:hover{
+    color:white;
+    background:blue;
+    padding:5px 10px;
+    border-radius:5px;
+}

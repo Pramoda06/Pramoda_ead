@@ -1,0 +1,58 @@
+body{
+    font-family: "Times New Roman", serif;
+    background:#f4f4f4;
+    margin:0;
+}
+
+.resume{
+    width:600px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    box-shadow:0 0 10px gray;
+    border-radius:10px;
+}
+
+h1{
+    text-align:center;
+    color:#2c3e50;
+    border-bottom:3px solid #3498db;
+    padding-bottom:10px;
+}
+
+h2{
+    color:#3498db;
+}
+
+p{
+    line-height:1.6;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th,td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#3498db;
+    color:white;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+ol{
+    margin-top:15px;
+}
+
+li{
+    padding:4px;
+}

@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.board{
+    border-collapse:collapse;
+}
+
+td{
+    width:60px;
+    height:60px;
+}
+
+/* White squares */
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd){
+    background:white;
+}
+
+/* Black squares */
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even){
+    background:black;
+}

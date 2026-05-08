@@ -1,0 +1,22 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+.formcont {
+width:250px;
+margin:50px auto;
+padding:15px;
+border:5px solid black;
+}
+form {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+textarea {
+    height:120px;
+    width:100%;
+}
+input:focus,textarea:focus,select:focus {
+    border:2px solid blue;
+}

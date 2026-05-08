@@ -1,0 +1,13 @@
+.container{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ gap:20px;
+ height:200px;
+}
+
+.container div{
+ background:orange;
+ padding:30px;
+ font-size:20px;
+}
