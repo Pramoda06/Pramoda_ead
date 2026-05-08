@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>College Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">My College</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CAROUSEL (TEXT ONLY) -->
+<div id="collegeCarousel" class="carousel slide bg-light text-center p-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <h2>Welcome to Our College</h2>
+      <p>Providing quality education for a bright future.</p>
+    </div>
+
+    <div class="carousel-item">
+      <h2>Modern Infrastructure</h2>
+      <p>Smart classrooms and advanced labs.</p>
+    </div>
+
+    <div class="carousel-item">
+      <h2>Excellent Placements</h2>
+      <p>Top companies recruit from our campus.</p>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#collegeCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#collegeCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark"></span>
+  </button>
+</div>
+
+<!-- GRID SECTION -->
+<div class="container mt-5">
+  <div class="row text-center">
+
+    <div class="col-md-4">
+      <div class="p-4 border rounded">
+        <h4>Departments</h4>
+        <p>CSE, ECE, Mechanical, Civil and more.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p-4 border rounded">
+        <h4>Facilities</h4>
+        <p>Library, labs, sports, hostels.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p-4 border rounded">
+        <h4>Placements</h4>
+        <p>High placement rate with top companies.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BUTTON + MODAL -->
+<div class="text-center mt-4">
+  <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#infoModal">
+    More Info
+  </button>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="infoModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">About Our College</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>This college offers excellent education, experienced faculty, and modern facilities to students.</p>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

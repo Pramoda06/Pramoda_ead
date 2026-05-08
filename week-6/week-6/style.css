@@ -1,0 +1,14 @@
+#time_table{
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#time_table th{
+    background-color: #853953;
+    color: white;
+}
+
+#time_table td{
+    background-color: #F3F4F4;
+}

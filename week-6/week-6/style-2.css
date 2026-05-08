@@ -1,0 +1,12 @@
+.container{
+    height:80%;
+    width:50%;
+    border:solid ;
+    margin-top:50px;
+    padding-top:50px;
+    padding:50px;
+    padding-bottom:50px;
+}
+h1{
+    text-align:center;
+}
