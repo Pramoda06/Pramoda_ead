@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin:0;
+            padding:0;
+            background-color: black;
+            border-radius: 10px;
+            @media(max-width:500px) {
+                .box{width:90%;}
+            }
+        }
+        .container {
+            width:250px;
+            height:250px;
+            border-radius:5px;
+            color:aqua;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: blueviolet;
+            border-radius: 10px;
+            margin:150px 150px;
+        }
+        #user {
+            margin:10px 10px;
+        }
+        #pass {
+            margin:10px 10px;
+        }
+        #btn {
+             margin:10px 10px;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+         <input type="text" id="user" placeholder="enter ur name">
+    <input type="password" id="pass" placeholder="enter password" >
+    <button id="btn">Login</button>
+    <p id="msg"></p> 
+    </div>
+    <script>
+      
+        function attemptt() {
+              let attempt=0;
+         return function() {
+                attempt++;
+                return attempt;
+            } 
+        }
+
+        const track=attemptt();
+        document.getElementById('btn').onclick=function() {
+            let u=user.value.trim();
+            let p=pass.value.trim();
+            if(!u) {
+                msg.textContent="username required"; return;
+            }
+          
+            if(u==="admin" && p==="123456") {
+                msg.textContent="successfully login";
+                msg.style.color="green";
+                return;
+            } 
+            else {
+                let count=track();
+                msg.textContent="invalid credentials"+count;
+                msg.style.color='red';
+                if(count>=3) {
+                    msg.textContent="Account locked";
+                }
+
+            }
+        }
+    </script>
+
+  
+</body>
+</html>
