@@ -1,0 +1,9 @@
+.layout{ height:100vh; display:flex; flex-direction:column; }
+
+header,footer{ background:#333;color:white;padding:15px;text-align:center; }
+
+.middle{ flex:1; display:flex; }
+
+aside{ width:25%; background:#ccc; padding:20px; }
+
+main{ flex:1; background:#eee; padding:20px; }
