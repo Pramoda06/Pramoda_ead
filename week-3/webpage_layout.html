@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web page</title>
+    </head>
+    <style>
+        body{
+            background-color:burlywood;
+        }
+        .container{
+            display:flex;
+            flex-direction:column;
+            justify-content:space-evenly;
+            align-items:flex-start;
+            position:fixed;
+            width:220px;
+            gap:10px;       
+            left: 20px;   
+        }
+        .items:hover{
+            background-color: royalblue;
+            padding-left: 20px;
+}
+        .items{
+            color:azure;
+            height:20px;
+            width:70px;
+            background-color:darkgrey;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding: 10px 20px;
+            background-color: #f1f1f1;
+}
+    </style>
+    <body>
+        <h1>THE HARRY POTTER</h1>
+        <p>Harry Potter is a globally renowned fantasy series by J.K. Rowling, 
+            featuring seven books (1997–2007) and eight movies (2001–2011) chronicling 
+            a young wizard’s fight against Lord Voldemort. Following orphaned Harry, his friends Ron and Hermione, and 
+            their time at Hogwarts, the franchise is a massive pop-culture phenomenon
+        </p>
+        <div class="container">
+            <div class="items">Home</div>
+            <div class="items">About</div>
+            <div class="items">Followers</div>
+            <div class="items">Merch</div>
+        </div>
+        <footer>© 2026 Pramoda. All rights reserved.</footer>
+    </body>
+</html>

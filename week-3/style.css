@@ -1,0 +1,19 @@
+h1{
+    color:brown;
+    text-align:left;
+    background-color:aquamarine;
+}
+.demo{
+    color:cornflowerblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+}
+#part1
+{
+    color:hotpink;
+    font-size:22px;
+}
+#part-2{
+    color:crimson;
+    font-size:29px;
+}
